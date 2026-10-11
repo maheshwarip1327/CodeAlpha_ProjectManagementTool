@@ -1,0 +1,28 @@
+{
+  "name": "taskflow-pro-root",
+  "version": "1.0.0",
+  "description": "TaskFlow Pro - Premium Full-Stack Project Management SaaS",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client",
+    "test:server": "npm run test --prefix server",
+    "test:client": "npm run test --prefix client",
+    "test": "npm run test:server && npm run test:client",
+    "seed": "npm run seed --prefix server",
+    "admin:create": "npm run admin:create --prefix server"
+  },
+  "keywords": [
+    "project-management",
+    "kanban",
+    "saas",
+    "collaboration",
+    "mern",
+    "react",
+    "vite",
+    "tailwind"
+  ],
+  "author": "CodeAlpha Full Stack Development",
+  "license": "MIT"
+}
